@@ -1,0 +1,23 @@
+.formulario{
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.formulario input{
+    padding: 1em;
+    border-radius: 5px;
+    border: 2px solid var(--cinza);
+    color: var(--preto);
+    margin: 0;
+}
+.formulario h2{
+    margin: 0;
+    padding: 0.5em;
+}
+.formulario .botao{
+    width: 100%;
+    color: var(--branco);
+    border: 0;
+    font-family: var(--fontEspecial);
+}

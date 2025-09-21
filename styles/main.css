@@ -1,0 +1,25 @@
+@import url(containers/item.css);
+@import url(containers/retorno.css);
+@import url(containers/formulario.css);
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+}
+main h2{
+    width: 100%;
+    border-bottom: 2px solid var(--preto);
+    color: var(--preto);
+    text-align: center;
+}
+
+.botao{
+    background-color: var(--preto);
+    color: var(--branco);
+    border-radius: 5px;
+    width: 15em;
+    text-align: center;
+    padding: 1em;
+}

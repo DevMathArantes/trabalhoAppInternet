@@ -1,0 +1,38 @@
+@import url(styles/header.css);
+@import url(styles/main.css);
+@import url(styles/footer.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --branco: #f3f3f3;
+    --preto: #1a1a1a;
+    --cinza: #808080;
+    --fontPadrao: "Alan Sans", sans-serif;
+    --fontEspecial: "Montserrat", sans-serif;
+    --fontTitulo: "Montserrat", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--fontTitulo);
+}
+p{
+    font-family: var(--fontPadrao);
+}
+a, span{
+    font-family: var(--fontEspecial);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

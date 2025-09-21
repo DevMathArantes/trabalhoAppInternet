@@ -1,0 +1,10 @@
+header{
+    width: 100%;
+    padding: 1em;
+    background-color: var(--preto);
+    color: var(--branco);
+    text-align: center;
+}
+header a{
+    color: var(--branco);
+}
