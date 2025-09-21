@@ -13,7 +13,7 @@
     </header>
     <main>
        
-    <form name="newLivro" class="formulario" action="../functions/inclui.php" method="post">
+    <form name="newLivro" class="formulario" action="../functions/insert.php" method="post">
 
         <h2>Nova Tarefa</h2>
         <input name="titulo" class="campoTxt" type="text" placeholder="Nomear Tarefa">

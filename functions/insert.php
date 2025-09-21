@@ -20,7 +20,7 @@
     $stmt->bindParam('descricao', $descricao);
 
     if($stmt->execute()){
-        header('Location: ../pages/formulario.php');
+        header('Location: ../index.php');
     } else{
         echo "Ocorreu um erro no registro ";
         print_r($stmt->errorInfo());
